@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    color: #333333;
+}
+
+nav {
+    display: flex;
+    padding: 40px 60px;
+}
+
+.logo {
+    width: 32vw;
+}
+
+.nav-items {
+    display: flex;
+    width: 65vw;
+}
+
+.line {
+    border-bottom: 2px solid #000;
+    width: 50%;
+    position: relative;
+    bottom: 22px;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+    width: 50%;
+}
+
+main {
+    display: flex;
+}
+
+.main-img {
+    width: 33vw;
+}
+
+.main-img img {
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    width: 65vw;
+}
+
+.content-top {
+    display: flex;
+    margin: 0 100px;
+}
+
+.content-top h1 {
+    width: 36vw;
+    font-size: 100px;
+    font-family: "Ink Free";
+    line-height: 1.2em;
+}
+
+.content-top h1 span {
+    margin-left: 170px;
+}
+
+
+
+.content-top p {
+    flex: 30;
+    font-size: 26px;
+    align-self: flex-end;
+    color: #94948f;
+}
+
+.socials {
+    width: 5vw;
+}
+
+.socials ul {
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    font-size: 26px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content-mid {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-mid a {
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 60px;
+    font-weight: 600;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-left {
+    display: flex;
+}
+
+.vertical-line {
+    border-right: 1px solid #94948f;
+    height: 188px;
+    position: relative;
+    right: 13px;
+    top: 11px;
+}
+
+.bottom-left li {
+    margin-bottom: 18px;
+    color: #94948f;
+}
+
+.bottom-left li:hover {
+    color: #000;
+    font-weight: 700;
+}
+
+.bottom-left ul {
+    font-size: 16px;
+}
+
+.bottom-middle {
+    width: 20vw;
+}
+
+.bottom-middle p {
+    font-size: 14px;
+}
+.bottom-middle p:first-child {
+    font-size: 80px;
+    margin-top: -80px;
+
+}
+
+.bottom-middle img {
+    width: 100%;
+}
+
+.bottom-right {
+    align-self: center;
+}
