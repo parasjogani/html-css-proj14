@@ -10,7 +10,7 @@ I learn lot of in this 14th project of my javascript bootcamp.
 
 Time taken to complete this project :
 
-05 : 00 hours
+08 : 00 hours
 
 ### [Live Link Of Project](https://html-css-proj14.netlify.app)
 ![Image](https://img.shields.io/badge/HTML-CSS-green)
