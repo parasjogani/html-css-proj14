@@ -147,6 +147,7 @@ main {
 .bottom-middle p {
     font-size: 14px;
 }
+
 .bottom-middle p:first-child {
     font-size: 80px;
     margin-top: -80px;
@@ -159,4 +160,72 @@ main {
 
 .bottom-right {
     align-self: center;
+}
+
+/* media query */
+
+@media screen and (min-width:600px) {
+    .dropdown {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    
+    .nav-items {
+        display: none;
+    }
+
+    .main-img img {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-top {
+        flex-direction: column;
+    }
+    
+    .content-top h1 {
+        font-size: 68px;
+        margin-left: -148px;
+    }
+
+    .content-top .socials ul {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        margin-top: -168px;
+        margin-left: -78px;
+    }
+
+    .content-mid a {
+        width: 300px;
+        margin-left: -134px;
+    }
+    
+    .content-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .bottom-left {
+        width: 378px;
+    }
+
+    .bottom-middle {
+        width: 378px;
+        margin-top: 48px;
+        margin-left: -48px;
+    }
+
+    .bottom-right img {
+        display: none;
+    }
 }
